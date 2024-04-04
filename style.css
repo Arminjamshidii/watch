@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  left: 11%;
+}
+
+.clock {
+
+  transform: translateX(-50%) translateY(-50%);
+  color: #5c5a98;
+  font-size: 60px;
+  letter-spacing: 7px;
+  font-family: 'Kdam Thmor Pro';
+
+
+}
